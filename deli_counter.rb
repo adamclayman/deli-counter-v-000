@@ -1,4 +1,6 @@
 # Write your code here.
+require 'pry'
+
 katz_deli = []
 
 def line(line)
@@ -9,6 +11,7 @@ def line(line)
     line.each_with_index do |name|
       sentence += " #{index + 1}. #{name}"
     end
+    binding.pry
     puts sentence
   end
 end
