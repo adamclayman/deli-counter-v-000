@@ -8,7 +8,8 @@ def line
     sentence = "The line is currently:"
     katz_deli.each_with_index do |name|
       sentence + " #{index + 1}. #{name}"
-    end
     puts sentence
   end
 end
+
+
