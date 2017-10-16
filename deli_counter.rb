@@ -7,7 +7,7 @@ def line
   else
     sentence = "The line is currently:"
     katz_deli.each_with_index do |name|
-      sentence + " #{index + 1}. #{name}"
+      sentence += " #{index + 1}. #{name}"
     puts sentence
   end
 end
