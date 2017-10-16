@@ -16,4 +16,3 @@ def line(line)
   end
 end
 
-line(["Adam", "Joel"])
