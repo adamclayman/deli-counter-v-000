@@ -11,7 +11,7 @@ def line(line)
     line.each_with_index do |name, index|
       sentence += " #{index + 1}. #{name}"
     end
-    binding.pry
     puts sentence
   end
 end
+
