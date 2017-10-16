@@ -15,3 +15,5 @@ def line(line)
     puts sentence
   end
 end
+
+line(katz_deli)
