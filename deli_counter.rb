@@ -11,5 +11,3 @@ def line
     puts sentence
   end
 end
-
-
