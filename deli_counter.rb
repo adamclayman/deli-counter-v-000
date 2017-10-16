@@ -15,4 +15,3 @@ def line(line)
     puts sentence
   end
 end
-
