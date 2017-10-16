@@ -16,4 +16,4 @@ def line(line)
   end
 end
 
-line(katz_deli)
+line(["Adam", "Joel"])
